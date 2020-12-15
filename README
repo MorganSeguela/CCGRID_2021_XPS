@@ -1,0 +1,50 @@
+###############################################
+CCGRID_2021_XPS
+###############################################
+
+This git contains 7 folders, one for each experiment :
+    - 3Rand         : 3Rand_CCGRID_XPS
+    - Boru et al.   : BORU_CCGRID_XP
+    - E2ARS         : E2ARS_CCGRID_XP
+    - E2ARSEC       : E2ARSEC_CCGRID_XP
+    - E2ARSEX       : E2ARSEX_CCGRID_XP
+    - MORM          : MORM_CCGRID_XP
+    - PEPR          : PEPR_CCGRID_XP
+
+These experiments are discussed in the following paper :
+
+This permits to everyone to reproduce our experiments in our environment. 
+
+################## 
+SETUP
+##################
+
+To use these docker containers, you have to create an image based on one folder. And then run this image. 
+This will create within the container, in the experience folder, a folder called output. You will just have to copy data from this folder on your computer.
+
+##################
+MODIFICATION
+##################
+
+You can change all the values in the input parameters file.
+However, the number of file is limited to 67 200, due to automatic filename generation in the application. 
+Also, this should be noted that, the number of VM is unlimited, but, the network matrixes get exponentially heavier in terms of memory.
+
+##################
+DOWNLOAD
+##################
+
+With this git you have all the images to run all the experiments.
+
+##################
+Authors
+##################
+Morgan Seguela : 
+Jean-Marc Pierson :
+Riad Mokadem :
+
+##################
+Publications
+##################
+
+
