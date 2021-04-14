@@ -1,15 +1,15 @@
 ###############################################
-CCGRID_2021_XPS
+Cloud_2021_XPS
 ###############################################
 
 This git contains 7 folders, one for each experiment :
-    - 3Rand         : 3Rand_CCGRID_XPS
-    - Boru et al.   : BORU_CCGRID_XP
-    - E2ARS         : E2ARS_CCGRID_XP
-    - E2ARSEC       : E2ARSEC_CCGRID_XP
-    - E2ARSEX       : E2ARSEX_CCGRID_XP
-    - MORM          : MORM_CCGRID_XP
-    - PEPR          : PEPR_CCGRID_XP
+    - 3Rand         : 3Rand_Cloud_XPS
+    - Boru et al.   : BORU_Cloud_XP
+    - E2ARS         : E2ARS_Cloud_XP
+    - E2ARSEC       : E2ARSEC_Cloud_XP
+    - E2ARSEX       : E2ARSEX_Cloud_XP
+    - MORM          : MORM_Cloud_XP
+    - PEPR          : PEPR_Cloud_XP
 
 These experiments are discussed in the following paper :
 
