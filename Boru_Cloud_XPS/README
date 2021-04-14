@@ -1,0 +1,48 @@
+###############################################
+boru-cloud-2021-xps 
+###############################################
+
+This is an image that runs a CloudSim experiment of Boru et al. strategy. This experiment runs on the experiment given by the user in argument.
+
+Experiment 1 - Exponential with parameters time/4.
+Experiment 2 - Uniform + Gamma starting at 1/4 of time.
+Experiment 3 - Uniform + Gamma starting at 2/3 of time.
+
+Inputs are given in experience/input/
+
+This image is linked to the article published here : 
+
+################## 
+SETUP
+##################
+
+To run this image, you have to choose which experiment you want to run with argument WHICH_XP. Then run the container. 
+
+This will run a java jar, and then writes all the outputs in experience/output/
+
+##################
+MODIFICATION
+##################
+
+You can change all the values in the input parameters file.
+However, the number of file is limited to 67 200, due to automatic filename generation in the application. 
+Also, this should be noted that, the number of VM is unlimited, but, the network matrixes is very large. So the more VMs there is, the more memory is needed. 
+
+##################
+DOWNLOAD
+##################
+
+This image contains everything needed to run Boru et al. experiment
+
+##################
+Authors
+##################
+Morgan Seguela : 
+Jean-Marc Pierson :
+Riad Mokadem :
+
+##################
+Publications
+##################
+
+
